@@ -16,7 +16,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-    origin:"https://ai-nutritiondashboard.netlify.app/login",
+    origin:"https://ai-nutritiondashboard.netlify.app",
     credentials: true
 }));
 
